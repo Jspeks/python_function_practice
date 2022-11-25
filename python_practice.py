@@ -1,5 +1,8 @@
+# Find the maximum of 3 numbers
 def max_num(a, b, c):
     return max([a, b, c])
+
+# multiple all the numbers in a list
 
 
 def multi_list(lst):
@@ -13,9 +16,13 @@ def multi_list(lst):
 
     return prod
 
+# reverse a string
+
 
 def rev_string(my_str):
     return my_str[::-1]
+
+# check if the middle number is between the other 2
 
 
 def num_within(x, a, b):
@@ -23,6 +30,8 @@ def num_within(x, a, b):
 
 
 triangle = [[1], [1, 1]]
+
+# prints out the first "n" rows of Pascal's triangle
 
 
 def pascal(n):
